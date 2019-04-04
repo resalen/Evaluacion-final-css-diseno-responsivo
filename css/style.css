@@ -71,3 +71,45 @@ footer{
 footer div{
 	width: 25%;
 }
+@media screen and (max-width: 750px){
+	.contenido{
+		flex-direction: column;
+	}
+	header h1{
+		width: 100%;
+		text-align: center;
+	}
+	header nav{
+		width: 100%;
+		text-align: center;
+	}
+	#imgCentral{
+		width: 100%;
+	}#imgSec{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 550px){
+	#contenido{
+		flex-direction: column;
+	}
+	header{
+		flex-direction: column;
+		padding: 0;
+	}
+	section{
+		flex-direction: column;
+	}
+	#imgSec{
+		flex-direction: column;
+	}
+	footer div{
+		width: 100%
+	}
+	footer{
+		width: 100%;
+		flex-direction: column;
+		text-align: center;
+		justify-content: center;
+	}
+}
