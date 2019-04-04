@@ -1,6 +1,7 @@
 .contenido{
 	max-width: 900px;
 	margin: auto;
+	font-family: 'Dancing Script', cursive;
 }
 header{
 	background: #5b7689;
@@ -37,6 +38,7 @@ section{
 }
 img{
 	border: 1px solid;
+	box-shadow: 2px 2px 5px #02010a;
 }
 #imgCentral{
 	background: #82c3a6;
@@ -51,6 +53,7 @@ img{
 figcaption{
 	color: #fff;
 	text-align: center;
+	text-decoration: underline;
 }
 #imgIzq figure img:hover{
 	transform: rotate(10deg);
