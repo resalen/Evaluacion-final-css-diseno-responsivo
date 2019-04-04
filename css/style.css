@@ -4,7 +4,7 @@
 }
 header{
 	background: #5b7689;
-	border-radius: 10px;
+	border-radius: 10px 10px 0 0;
 	padding: 10px 20px;
 	display: flex;
 	flex-flow: row wrap;
@@ -35,10 +35,36 @@ nav a:hover{
 section{
 	background: #02010a;
 }
+img{
+	border: 1px solid;
+}
 #imgCentral{
+	background: #82c3a6;
 	padding: 20px 0px;
+	justify-content: center;
 }
 #imgSec{
+	background: #d5c75f;
 	display: flex;
 	flex-direction: row;
+}
+figcaption{
+	color: #fff;
+	text-align: center;
+}
+#imgIzq figure img:hover{
+	transform: rotate(10deg);
+}
+#imgDer figure img:hover{
+	transform: translate(20px, -5px);
+}
+footer{
+	background: #c6d5c5;
+	border-radius: 0 0 10px 10px;
+	display: flex;
+	flex-direction: row;
+	padding: 20px;
+}
+footer div{
+	width: 25%;
 }
