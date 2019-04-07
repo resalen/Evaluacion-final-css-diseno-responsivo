@@ -126,5 +126,22 @@ section{
 #imgSection img{
 	margin: 20px;
 }
+@media screen and (max-width: 803px){
+	#imgSection{
+		flex-flow: row wrap;
+	}
+	#imgSection img{
+		width: 45%;
+		margin: 10px;
+	}
+}
 
-
+@media screen and (max-width: 803px){
+	#imgSection{
+		flex-direction: column;
+	}
+	#imgSection img{
+		width: 100%;
+		margin: 6px 0;
+	}
+}
