@@ -34,13 +34,10 @@ nav a{
 nav a:hover{
 	color: #F78C13;
 }
-section{
-	background: #02010a;
-}
+
 img{
 	border: 1px solid;
 	box-shadow: 2px 2px 5px #02010a;
-	width: 100%;
 }
 #imgCentral{
 	background: #82c3a6;
@@ -75,7 +72,7 @@ footer div{
 	width: 25%;
 	padding: 10px;
 }
- 
+ /*===========INDEX========*/
 @media screen and (max-width: 803px){
 	.contenido{
 		flex-direction: column;
@@ -93,11 +90,20 @@ footer div{
 	}
 	#imgCentral{
 		width: 100%;
-	}#imgSec{
+	}
+	#imgSec{
 		width: 100%;
 	}
+	footer{
+		flex-flow: row wrap;
+		padding: 10px;
+	}
+	footer div{
+		width: 48%;
+	}	
+
 }
-@media screen and (max-width: 455px){
+@media screen and (max-width: 456px){
 	#contenido{
 		flex-direction: column;
 	}
@@ -121,6 +127,9 @@ footer div{
 		justify-content: center;
 	}
 }
+ /*===========fin Index========*/
+
+ /*===========PAISAJE========*/
 section{
 	background:  #d5c75f;
 }
@@ -149,7 +158,7 @@ section{
 	}
 }
 
-@media screen and (max-width: 455px){
+@media screen and (max-width: 456px){
 	#imgSection{
 		flex-direction: column;
 	}
