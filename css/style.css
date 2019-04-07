@@ -2,6 +2,7 @@
 	max-width: 900px;
 	margin: auto;
 	font-family: 'Dancing Script', cursive;
+	min-width: 300px;
 }
 header{
 	background: #5b7689;
@@ -71,6 +72,7 @@ footer{
 footer div{
 	width: 25%;
 }
+ 
 @media screen and (max-width: 750px){
 	.contenido{
 		flex-direction: column;
@@ -107,9 +109,22 @@ footer div{
 		width: 100%
 	}
 	footer{
-		width: 100%;
+		
 		flex-direction: column;
 		text-align: center;
 		justify-content: center;
 	}
 }
+section{
+	background:  #d5c75f;
+}
+#imgSection{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+#imgSection img{
+	margin: 20px;
+}
+
+
