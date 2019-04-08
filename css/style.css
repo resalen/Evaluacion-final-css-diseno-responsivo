@@ -1,3 +1,6 @@
+body{
+	background: #02010a;
+}
 .contenido{
 	max-width: 900px;
 	margin: auto;
@@ -36,7 +39,7 @@ nav a:hover{
 }
 
 img{
-	border: 1px solid;
+	border: 1px solid  #02010a;
 	box-shadow: 2px 2px 5px #02010a;
 }
 #imgCentral{
@@ -57,9 +60,12 @@ figcaption{
 }
 #imgIzq figure img:hover{
 	transform: rotate(10deg);
+	box-shadow: 2px 2px 5px #82c3a6;
 }
 #imgDer figure img:hover{
 	transform: translate(20px, -5px);
+	box-shadow: 2px 2px 5px #82c3a6;
+	box-shadow: 2px 2px 5px #82c3a6;
 }
 footer{
 	background: #c6d5c5;
@@ -168,4 +174,18 @@ section{
 		border: 0;
 		box-shadow: 0;
 	}
+}
+
+/*===========RETRATO========*/
+#imgSection img:nth-child(1) {
+	-webkit-filter:blur(10px);
+	filter: blur(10px);
+}
+#imgSection img:nth-child(even){
+	-webkit-filter:grayscale(100%);
+	filter: grayscale(100%);
+}
+#imgSection img:nth-child(3){
+	-webkit-filter:sepia(90%);
+	filter: sepia(90%);
 }
