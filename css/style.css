@@ -79,7 +79,7 @@ footer div{
 	padding: 10px;
 }
  /*===========INDEX========*/
-@media screen and (max-width: 803px){
+@media screen and (max-width: 900px){
 	.contenido{
 		flex-direction: column;
 	}
@@ -109,7 +109,7 @@ footer div{
 	}	
 
 }
-@media screen and (max-width: 456px){
+@media screen and (max-width: 700px){
 	#contenido{
 		flex-direction: column;
 	}
@@ -135,7 +135,7 @@ footer div{
 }
  /*===========fin Index========*/
 
- /*===========PAISAJE========*/
+ /*===========PAISAJE RETRATOS========*/
 section{
 	background:  #d5c75f;
 }
@@ -147,7 +147,7 @@ section{
 #imgSection img{
 	margin: 20px;
 }
-@media screen and (max-width: 803px){
+@media screen and (max-width: 900px){
 	#imgSection{
 		flex-flow: row wrap;
 	}
@@ -164,7 +164,7 @@ section{
 	}
 }
 
-@media screen and (max-width: 456px){
+@media screen and (max-width: 700px){
 	#imgSection{
 		flex-direction: column;
 	}
